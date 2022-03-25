@@ -61,7 +61,7 @@ def oilFunction(lines):
    output_file.write('date, oil, volume \n')
    for i in range(0,19): 
       output_file.write('{},{},{}\n' .format(date_modified[i],oil_modified[i],volume_modified[i]))
-      
+   output_file.close()  
 
 
 oilFunction(lines)

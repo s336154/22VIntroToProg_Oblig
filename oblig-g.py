@@ -8,7 +8,7 @@ Created on Thu Mar 10 14:35:21 2022
 
 input_file = open('oil.txt', 'r')
 lines = input_file.readlines()
-input_file.close()
+
 
 date= []; oil= []; volume= []
 comma= ','; space= ' ';
@@ -89,3 +89,5 @@ def oilVolumeFunc(lines):
         oil_Date = input('Type in a new date to access information (Example: 2022/02/28):  ')  
 
 oilVolumeFunc(lines)
+
+input_file.close()

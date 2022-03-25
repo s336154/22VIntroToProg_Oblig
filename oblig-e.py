@@ -5,14 +5,6 @@ Created on Wed Mar  9 20:52:07 2022
 @author: saris
 """
 
-'''
-e) Write a function which displays the date of the highest or lowest oil price, 
-including the price. The user has to specify whether the maximum or minimum 
-price should be displayed. Make sure to check for invalid input from the user.
-
-
-'''
-
 input_file = open('oil_raw_data.txt', 'r')
 lines = input_file.readlines()
 
